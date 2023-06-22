@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
+#define _POSIX_C_SOURCE 200809L
 #define UNUSED(x) (void)(x)
 #define LINE_MAX 1024
 
